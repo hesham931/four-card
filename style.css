@@ -97,9 +97,11 @@ img[alt = "team_build"] , img[alt = "karma"]{
     margin-top:70px
 }
 .left{
-    float: none;
-    clear: none;
-    margin-top: 900px;
-    margin-left:135px;
+    float:none;
+    margin: 910px auto auto;
+}
+img[alt = "supervisor"]{
+    position:relative;
+    bottom:105px
 }
 }
