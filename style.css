@@ -98,7 +98,7 @@ img[alt = "team_build"] , img[alt = "karma"]{
 }
 .left{
     float:none;
-    margin: 910px auto auto;
+    margin: 910px auto 50px auto;
 }
 img[alt = "supervisor"]{
     position:relative;
