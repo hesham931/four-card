@@ -45,8 +45,8 @@ img[alt = "team_build"] , img[alt = "karma"]{
     border-color:hsl(34, 97%, 64%);
 }
 .right{
-    margin-left:100px;
-    margin-top:-600px;
+    float:left;
+    margin:-600px auto auto 100px;
     border-color:hsl(180, 62%, 55%);
 }
 img[alt = "supervisor"]{
@@ -55,8 +55,7 @@ img[alt = "supervisor"]{
     bottom:105px
 }
 .left{
-    margin-right:-870px;
-    margin-top:-287px;
+    margin:-600px 100px auto auto;
     float:right;
     border-color:hsl(212, 86%, 64%);
 }
@@ -65,7 +64,7 @@ img[alt = "calculater"]{
     position:relative;
     top:40px
 }
-@media screen and (max-width:980px){
+@media screen and (max-width:1300px){
 body{
     font-size:25px
 }
@@ -79,6 +78,7 @@ body{
     height:300px;
 }
 .right{
+    float:none;
     margin:-1400px auto auto
 }
 img[alt = "supervisor"]{
@@ -98,10 +98,41 @@ img[alt = "team_build"] , img[alt = "karma"]{
 }
 .left{
     float:none;
-    margin: 910px auto 50px auto;
+    margin: 910px auto 100px auto;
 }
 img[alt = "supervisor"]{
     position:relative;
     bottom:105px
 }
+}
+@media screen and (min-width:980px) and (max-width:1300px){
+    body{
+        font-size:35px
+    }
+    ._header{
+        width:900px;
+        height:200px;
+        line-height:60px
+    }
+    .top , .bottom , .left , .right{
+        width:500px;
+        height:400px;
+    }
+    .left{
+        margin-top:1250px;
+        margin-bottom:100px
+    }
+    .right{
+        margin-top:-1800px;
+    }
+    img[alt = "supervisor"]{
+        position:relative;
+        bottom:400px
+    }
+    .top{
+        margin-top:900px
+        }
+        .bottom{
+            margin-top:130px
+        }
 }
