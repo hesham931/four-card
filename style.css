@@ -52,7 +52,7 @@ img[alt = "team_build"] , img[alt = "karma"]{
 img[alt = "supervisor"]{
     float:right;
     position:relative;
-    bottom:80px
+    bottom:50px
 }
 .left{
     margin:-600px 100px auto auto;
